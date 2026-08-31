@@ -1,0 +1,63 @@
+:root{
+  --accent: #acd3ff;
+  --deep-accent: #3477c5;
+  --theme: #ffd6d4;
+  --light: #fff0f0;
+}
+
+#root{
+    background-color: var(--light);
+    font-family: "Lato", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.light-rg{
+    background-color: var(--theme);
+}
+
+a{
+    color: var(--deep-accent) !important;
+}
+
+a:hover{
+    color: #224e81 !important;
+}
+
+.book-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.accent-bg{
+    background-color: var(--accent);
+    color: rgb(6, 8, 71) !important;
+}
+
+.logo-title{
+  color:#f25477;
+  font-family: "Pinyon Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo-title-home{
+  color:#f25477;
+  font-family: "Pinyon Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.hero{
+  background-image: url("https://img.freepik.com/free-vector/delicate-pink-fresh-spring-japanese-flowering-cherry-blossom-horizontal-banner_1284-44630.jpg");
+  height: 300px;
+}
